@@ -12,3 +12,8 @@
 ```
 
 # `<Link>`
+
+# Access the URL path
+```javascript
+this.props.path
+```
