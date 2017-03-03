@@ -15,5 +15,14 @@
 
 # Access the URL path
 ```javascript
-this.props.path
+this.props.location.pathname
+```
+
+#Iterating Over The Component Children
+
+```javascript
+const children = React.Children.map(this.props.children, child => {
+  //manipulate or clone the objects
+  return child
+          }
 ```
