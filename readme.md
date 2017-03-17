@@ -71,7 +71,7 @@ cordova platform add android --save
 ## how to git cordova
 [how to git cordova](https://evothings.com/doc/build/cordova-install-windows.html)
 
-## emulate touch on android 6
+## emulate fingerTip on android 6
   ```
   adb -e emu finger touch <touchID>
   ```
