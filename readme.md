@@ -48,6 +48,8 @@ Ctrl+`
 ```
 Ctrl+P
 ```
+## Multiple Cursors
+`alt+ctrl+shift+ up/down arrow`
 
 # Android/Cordova
 
