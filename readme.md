@@ -51,6 +51,10 @@ Ctrl+P
 ## Multiple Cursors
 `alt+ctrl+shift+ up/down arrow`
 
+## Select all occurrences of current selection
+
+`Ctrl+Shift+L`
+
 # Android/Cordova
 
 
