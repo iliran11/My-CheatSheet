@@ -1,4 +1,32 @@
-# React
+# React - Redux
+
+## Map actions to props
+
+```javascript
+//import action.js
+function mapDispatchToProps(dispatch) {
+    return bindActionCreators({
+        action
+    }, dispatch)
+}
+```
+
+## Map state to props
+
+```javascript
+function mapStateToProps(state) {
+  //object means:
+  //key - how to map it to the props
+  //value - what portion of the state to take
+    return {weather: state.weather};
+}
+```
+
+## Connect the component to redux
+
+```javascript
+export default connect(mapStateToProps, mapDispatchToProps)(ComponenetGoesHere)
+```
 
 ## Basic Form defintion With Bootstrap
 ```html
