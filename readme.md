@@ -3,7 +3,8 @@
 ## Map actions to props
 
 ```javascript
-//import action.js
+import action.js from './action.js';
+import {bindActionCreators} from 'redux';
 function mapDispatchToProps(dispatch) {
     return bindActionCreators({
         action
