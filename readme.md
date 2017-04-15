@@ -26,6 +26,7 @@ function mapStateToProps(state) {
 ## Connect the component to redux
 
 ```javascript
+import {connect} from 'react-redux';
 export default connect(mapStateToProps, mapDispatchToProps)(ComponenetGoesHere)
 ```
 
