@@ -1,5 +1,30 @@
 # React - Redux
 
+## Class Definition - Component
+
+```javascript
+import React, {Component} from 'react';
+
+export default class HelloWorld extends Component {
+    render() {
+        return (
+          <div>HelloWorld</div>
+        );
+    }
+}
+```
+##stateless react component
+
+```javascript
+import React from 'react';
+
+const statelessComponent = (props) => {
+  return <div>hello</div>;
+}
+export default statelessComponent
+
+```
+
 ## Map actions to props
 
 ```javascript
