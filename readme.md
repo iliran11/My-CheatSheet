@@ -13,7 +13,7 @@ export default class HelloWorld extends Component {
     }
 }
 ```
-##stateless react component
+## stateless react component
 
 ```javascript
 import React from 'react';
