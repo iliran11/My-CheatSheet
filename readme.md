@@ -137,4 +137,26 @@ cordova platform add android --save
   adb -e emu finger touch <touchID>
   ```
 
+# VueJs
+
+## how to export component on Vue
+
+```html
+<template>
+<f7-page>
+User Identification
+<HeaderNav></HeaderNav>
+</f7-page>
+</template>
+
+<script>
+import HeaderNav from '../components/header.vue';
+export default {
+  components: {
+    HeaderNav
+  }
+} 
+</script>
+```html
+
 
